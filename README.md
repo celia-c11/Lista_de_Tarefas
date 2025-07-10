@@ -1,16 +1,18 @@
-# todo_list
+# Lista de Tarefas Flutter 📝📱💻
+Esse projeto é um aplicativo de lista de tarefas feito em Flutter usando Dart. Nele, você pode:
 
-A new Flutter project.
+-Adicionar novas tarefas com título e data/hora da criação.
 
-## Getting Started
+-Visualizar todas as tarefas em uma lista organizada.
 
-This project is a starting point for a Flutter application.
+-Editar o título das tarefas facilmente, com um diálogo para alterar.
 
-A few resources to get you started if this is your first Flutter project:
+-Excluir tarefas deslizando o item para o lado, com confirmação e opção de desfazer a exclusão.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-Apagar todas as tarefas de uma vez, com alerta de confirmação para evitar apagamentos acidentais.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Receber mensagens de erro caso tente adicionar tarefa vazia.
+
+-Salvar e carregar a lista automaticamente usando um repositório local, para manter suas tarefas mesmo após fechar o app.
+
+-O design é simples, limpo e intuitivo, usando widgets nativos do Flutter para uma boa experiência no celular.
